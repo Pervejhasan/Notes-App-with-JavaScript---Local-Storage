@@ -4,10 +4,10 @@ body {
   margin: 0;
 }
 
-/* .notes {
+.notes {
   display: flex;
   height: 100%;
-} */
+}
 
 .notes * {
   font-family: sans-serif;
@@ -21,13 +21,22 @@ body {
   width: 300px;
 }
 
-/* .notes__add {
+.notes__add {
+  background: #009578;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
   cursor: pointer;
-} */
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 0.75em 0;
+  width: 100%;
+}
 
-/* .notes__add:hover {
+.notes__add:hover {
   background: #00af8c;
-} */
+}
 
 .notes__list-item {
   cursor: pointer;
@@ -37,27 +46,26 @@ body {
   background: #eeeeee;
   border-radius: 7px;
   font-weight: bold;
+}
+
+.notes__small-title,
+.notes__small-updated {
   padding: 10px;
 }
 
-/* .notes__small-title,
-.notes__small-updated {
-  padding: 10px;
-} */
-
-/* .notes__small-title {
+.notes__small-title {
   font-size: 1.2em;
-} */
+}
 
-/* .notes__small-body {
+.notes__small-body {
   padding: 0 10px;
-} */
+}
 
-/* .notes__small-updated {
+.notes__small-updated {
   color: #aaaaaa;
   font-style: italic;
   text-align: right;
-} */
+}
 
 .notes__preview {
   display: flex;
